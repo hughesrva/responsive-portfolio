@@ -226,33 +226,126 @@ p{
 }
 
 @media screen and (max-width: 980px) {
+    body{
+        width: 980px;
+    }
+    
+    .header{
+        position: static;
+        width: 100%;
+    }
+
+    .navBar{
+        width: 920px;
+    }
+
+    .content{
+        width: 694px;
+        margin: 0 0 100px 30px;
+    }
+
+    .project{
+        margin: 20px auto 10px;
+        width: 317px;
+        height: 204px;
+    }
+
+    .projectImg{
+        width: 317px;
+        height: 204px;
+    }
+    
+    .projectName{
+        width: 317px;
+    }
+
+    .smallInput{
+        width: 664px;
+    }
+
+    .bigInput{
+        width: 664px;
+    }
 
 }
-
 @media screen and (max-width: 768px) {
+    .header{
+        position: static;
+        width: 100%;
+    }
+    .navBar{
+        width: 708px;
+    }
 
+    .nameBox{
+        margin: 0 auto 0;
+    }
+
+    .buttonBox{
+        margin: 0 auto 0;
+    }
+
+    .content{
+        width: 674px;
+    }
+
+    .footerBar{
+        width: 768px;
+    }
+
+    .project{
+        margin: 20px auto 10px;
+        width: 312px;
+        height: 207px;
+    }
+
+    .projectImg{
+        margin: 0 auto 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .projectName{
+        width: 312px;
+    }
+
+    .smallInput{
+        width: 645px;
+    }
+
+    .bigInput{
+        width: 645px;
+    }
+
+    body{
+        height: 100%;
+        width: 768px;
+    }
 }
 
 @media screen and (max-width: 640px) {
     .header{
         position: static;
-        width: 100%;
+        width: 640;
+        height: 150px;
     }
-    .navbar{
-        width: 100%;
+    .navBar{
+        width: 640px;
     }
 
     .nameBox{
         width: 600px;
+        margin: 0 auto 0;
     }
 
     .buttonBox{
-        width: 640px;
+        width: 600px;
         float: left;
+        margin: 0 auto 0;
     }
 
     .content{
-        width: 566px;
+        width: 546px;
     }
 
     .footerBar{
@@ -261,6 +354,30 @@ p{
 
     .project{
         margin: 20px auto 10px;
+        width: 526px;
+        height: 351px;
     }
 
+    .projectImg{
+        margin: 0 auto 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .projectName{
+        width: 526px;
+    }
+
+    .smallInput{
+        width: 511px;
+    }
+
+    .bigInput{
+        width: 511px;
+    }
+
+    body{
+        height: 100%;
+        width: 640px;
+    }
 }
